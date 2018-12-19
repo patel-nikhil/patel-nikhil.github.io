@@ -1,0 +1,191 @@
+/*
+ * Main page and container styling
+ */
+
+html {
+  background-color: lightslategray;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-color: rgb(134, 180, 154);*/
+  /*background-color: #87b4b0;*/
+  background-color: lightslategray;
+}
+
+.header {	
+	margin: 0px;	
+	/*padding: 3px 2.5% 3px 2.5%;*/
+	height: 100px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgb(233, 179, 161);
+	font-size: 18px;
+}
+
+.page {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color: lightgray;
+}
+
+.copyright {
+  font-size: 0.875em;
+}
+
+/*
+ * Main content
+ */
+
+.section-title {
+  padding-top: 1%;
+  padding-bottom: 0;
+  padding-left: 5%;
+}
+
+.content {
+  padding-left: 10%;
+}
+
+.wrapper {
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.section-projects {
+  padding-left: 5%;
+  margin: 1% 5% 5% 5%;
+}
+
+/*
+ * Profile section
+ */
+
+.profile-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.section-profile {
+  padding-left: 10%;
+  padding-bottom: 1%;
+}
+
+.quote {
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quote-author {
+  padding-left: 50px
+}
+
+
+/*
+ * Dividers
+ */
+
+.section-divider {
+  width: 90%;
+  height: 1.5px;
+  background-color: lightslategray;
+}
+
+.section-title-divider {
+  background-color: darkgoldenrod;
+  height: 3px;
+  width: 150px;
+  margin-left: 5%;
+  margin-top: 0;
+}
+
+/*
+ * Media
+ */
+
+.profile {
+  margin-top: 30%;
+  margin-left: 50%;
+  margin-right: 10%;
+}
+
+.card-img-top {
+  height: 12rem;
+}
+
+.git-icon {
+  padding-left: 0;
+  padding-right: 8px;
+}
+
+.card-link {
+  position: absolute;
+  font-size: 0.875em;
+  margin-left: 25px;
+  bottom: 1.75em;
+}
+
+.card {
+  width: 18rem;
+  height: 26rem;
+}
+
+.card-text-small,
+.card-link-small {
+  display: none;
+}
+
+/*
+ * Alternative content display for small screen sizes
+ */
+
+@media screen and (max-width: 1325px) and (min-width: 992px) {
+  .card {
+    width: 12em;
+    height: 17rem;
+  }
+
+  .card-title {
+    font-size: 1em;
+  }
+  
+  .card-text {
+    font-size: 0.875em;
+  }
+
+  .card-link,
+  .card-text-large,
+  .card-img-top {
+    display: none;
+  }
+
+  .card-link-small {
+    display: inline;
+    position: absolute;
+    font-size: 0.875em;
+    margin-left: 0;
+    bottom: 1.75em;
+  }
+
+  .card-text-small {
+    display: inline-block;
+    font-size: 1em;
+  }
+
+  .profile {
+    margin-left: 0;
+    width: 375%;
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .profile{
+    display: none;
+  }
+
+}
