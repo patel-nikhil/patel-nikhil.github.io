@@ -76,8 +76,11 @@ body {
 
 .quote {
   font-style: italic;
-  padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.title-quote {
+  padding-top: 40px;
 }
 
 .quote-author {
@@ -106,12 +109,6 @@ body {
 /*
  * Media
  */
-
-.profile {
-  margin-top: 30%;
-  margin-left: 50%;
-  margin-right: 10%;
-}
 
 .card-img-top {
   height: 12rem;
@@ -174,18 +171,6 @@ body {
   .card-text-small {
     display: inline-block;
     font-size: 1em;
-  }
-
-  .profile {
-    margin-left: 0;
-    width: 375%;
-    height: 55%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .profile{
-    display: none;
   }
 
 }
