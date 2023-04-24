@@ -63,14 +63,19 @@ body {
 /*
  * Profile section
  */
+.profile-name {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: -10%;
+}
 
 .profile-title {
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .section-profile {
-  padding-left: 10%;
+  padding-left: 5%;
   padding-bottom: 1%;
 }
 
